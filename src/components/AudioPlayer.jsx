@@ -21,7 +21,7 @@ const AudioPlayer = () => {
     <div className="fixed bottom-8 right-8 z-50">
       <audio 
         ref={audioRef} 
-        src="/background.mp3" 
+        src="/othaiyadi-pathayila-koshalworldcom_YHRe138r.mp3" 
         loop 
       />
       
