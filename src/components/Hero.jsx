@@ -24,12 +24,12 @@ const Hero = () => {
         transition={{ duration: 1.2, ease: "easeOut" }}
         className="relative z-20 text-center px-4 max-w-4xl"
       >
-        <div className="mb-8 font-serif text-taupe/60 italic text-sm">
-           <p className="uppercase tracking-[0.3em] font-normal mb-2 text-xs">With the heavenly blessings of</p>
-           <p>Late Smt. Lajwanti & Late Sh. Harman Dass Saini</p>
+        <div className="mb-8 font-serif text-taupe italic text-sm bg-white/40 backdrop-blur-sm py-2 px-6 rounded-full inline-block">
+           <p className="uppercase tracking-[0.3em] font-normal mb-2 text-xs text-gold-dark shadow-xs">With the heavenly blessings of</p>
+           <p className="text-taupe font-semibold">Late Smt. Lajwanti & Late Sh. Harman Dass Saini</p>
         </div>
 
-        <span className="font-serif text-gold tracking-widest text-sm uppercase mb-4 block">
+        <span className="font-serif text-gold-dark tracking-widest text-sm uppercase mb-4 block font-bold">
           The Wedding of
         </span>
         
@@ -37,18 +37,18 @@ const Hero = () => {
           Rohin & Damini
         </h1>
 
-        <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-16 font-serif text-taupe/80 text-sm md:text-base">
+        <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-16 font-serif text-taupe text-sm md:text-base bg-white/60 backdrop-blur-md p-6 rounded-lg shadow-sm border border-gold/10">
           <div className="space-y-1">
-            <p className="font-bold text-taupe uppercase tracking-wider">Son of</p>
-            <p>Smt. Anu & Sh. Raj Kumar Saini</p>
+            <p className="font-bold text-gold-dark uppercase tracking-wider">Son of</p>
+            <p className="font-semibold">Smt. Anu & Sh. Raj Kumar Saini</p>
             <p className="text-xs italic tracking-wide">(Pathankot)</p>
           </div>
           
           <div className="h-10 w-[1px] bg-gold/30 hidden md:block" />
 
           <div className="space-y-1">
-            <p className="font-bold text-taupe uppercase tracking-wider">Daughter of</p>
-            <p>Smt. Savita & Sh. Rakesh Saini</p>
+            <p className="font-bold text-gold-dark uppercase tracking-wider">Daughter of</p>
+            <p className="font-semibold">Smt. Savita & Sh. Rakesh Saini</p>
             <p className="text-xs italic tracking-wide">(Vill. Dhobra, Pathankot)</p>
           </div>
         </div>

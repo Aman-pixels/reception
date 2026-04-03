@@ -1,6 +1,5 @@
 import { motion, useScroll, useSpring } from 'framer-motion';
 import Hero from './components/Hero';
-import CelebrationDetails from './components/CelebrationDetails';
 import WeddingEvents from './components/WeddingEvents';
 import AudioPlayer from './components/AudioPlayer';
 import Footer from './components/Footer';
@@ -26,7 +25,6 @@ function App() {
         <Hero />
         
         <main className="divide-y divide-gold/10">
-          <CelebrationDetails />
           <WeddingEvents />
         </main>
         
